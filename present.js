@@ -1,7 +1,7 @@
 
 // Cần hỗ trợ hãy liên hệ: 
-// Mr-Nam http://facebook.com/nam.nodemy
-// Các bạn muốn học lập trình thì tham gia Nhóm zalo tự học lập trình nhé: https://zalo.me/g/yhdkef092
+// http:https://www.facebook.com/Segue17
+// Các bạn muốn học lập trình thì tham gia Nhóm zalo tự học lập trình nhé: 
 
 var to = nameGirl;
 var gift_url = giftUrl;
@@ -14,7 +14,7 @@ var presentImage = document.getElementById("present-image");
 function init() {
   var graphElem = document.querySelector('.present-box > .side.top .to');
   graphElem.setAttribute('data-before', eventName);
-  document.querySelector('#card .title-card').innerHTML = `💘${titleCard}💘`;
+  document.querySelector('#card .title-card').innerHTML = `🎂${titleCard}🎂`;
   document.querySelector('#card .content-card').innerHTML = `${contentCard}`;
   document.querySelector('#card .honey').setAttribute('src', `${giftImage}`);
 
